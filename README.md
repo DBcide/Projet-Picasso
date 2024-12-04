@@ -1,1 +1,1 @@
-# web
+# Projet Picasso
