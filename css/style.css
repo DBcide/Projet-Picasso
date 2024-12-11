@@ -1,29 +1,59 @@
-/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+.blockquote-custom {
+  border-left: 2px solid lightblue;
+  padding-left: 15px;
+  color: #495057;
+}
 
-/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+/* Carousel */
 
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) brightness(1.5);
+}
 
-   html, body {
-    height: 100%;
-    margin: 0; padding: 0;
-  }
-  body {
-    display : table;
-    width: 100%;
-  }
-  footer {
-    display : table-row;
-    height: 100px; /* à titre d'exemple */
-  }
+.carousel-inner img {
+  max-height: 500px;
+  object-fit: contain;
+  height: 100vh;
+  width: 100%;
+}
 
+/* Phrase d'accroche */
+
+h2 {
+  text-align: justify;
+  padding: 6%;
+  background-color: #495057;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+/* logo barre navigation */
+
+.white {
+  filter: invert();
+}
+
+/* Footer */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: table;
+  width: 100%;
+}
+
+.basdepage {
+  display: table-row;
+  height: 100px;
+}
+
+/* page */
 
 .indent {
   text-indent: 10%;
@@ -42,49 +72,54 @@
   color: white;
 }
 
-.zone-bleue{
+.zone-bleue {
   background-color: rgb(42, 168, 214);
-}   
-.zone-verte{
+}
+
+.zone-verte {
   background-color: rgb(46, 228, 22);
   height: 200px;
-} 
-.zone-cyan{
+}
+
+.zone-cyan {
   background-color: rgb(23, 255, 255);
   height: 200px;
-} 
-.zone-rouge{
+}
+
+.zone-rouge {
   background-color: rgb(219, 11, 11);
   height: 100px;
 }
 
-.zone-grise{
+.zone-grise {
   background-color: rgba(194, 194, 194, 0.89);
 }
 
-.zone-orange{
+.zone-orange {
   background-color: rgb(255, 162, 40);
-} 
-.zone-jaune{
+}
+
+.zone-jaune {
   background-color: rgb(252, 230, 35);
   height: 50px;
-} 
-.zone-violette{
+}
+
+.zone-violette {
   background-color: rgb(123, 37, 235);
   height: 400px;
 }
-.zone-rose{
+
+.zone-rose {
   background-color: rgb(235, 37, 103);
   height: 400px;
-} 
+}
 
 
-img{
+img {
   max-height: 250px;
 }
 
 html {
-  color: #222;
   font-size: 1em;
   line-height: 1.4;
 }
@@ -244,9 +279,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -257,6 +292,7 @@ textarea {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -316,4 +352,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
