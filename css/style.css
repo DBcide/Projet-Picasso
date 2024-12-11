@@ -1,3 +1,8 @@
+img:hover { 
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out; 
+}
+
 .blockquote-custom {
   border-left: 2px solid lightblue;
   padding-left: 15px;
@@ -22,7 +27,7 @@
 
 h2 {
   text-align: justify;
-  padding: 6%;
+  padding: 5%;
   background-color: #495057;
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
@@ -66,54 +71,6 @@ body {
 .indent3 {
   text-indent: 20%;
 }
-
-.zone-gris {
-  background-color: gray;
-  color: white;
-}
-
-.zone-bleue {
-  background-color: rgb(42, 168, 214);
-}
-
-.zone-verte {
-  background-color: rgb(46, 228, 22);
-  height: 200px;
-}
-
-.zone-cyan {
-  background-color: rgb(23, 255, 255);
-  height: 200px;
-}
-
-.zone-rouge {
-  background-color: rgb(219, 11, 11);
-  height: 100px;
-}
-
-.zone-grise {
-  background-color: rgba(194, 194, 194, 0.89);
-}
-
-.zone-orange {
-  background-color: rgb(255, 162, 40);
-}
-
-.zone-jaune {
-  background-color: rgb(252, 230, 35);
-  height: 50px;
-}
-
-.zone-violette {
-  background-color: rgb(123, 37, 235);
-  height: 400px;
-}
-
-.zone-rose {
-  background-color: rgb(235, 37, 103);
-  height: 400px;
-}
-
 
 img {
   max-height: 250px;
