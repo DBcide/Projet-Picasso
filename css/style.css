@@ -1,3 +1,7 @@
+.tarifs {
+  padding: 3%;
+}
+
 img:hover { 
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out; 
@@ -45,7 +49,12 @@ html,
 body {
   height: 100%;
   margin: 0;
-  padding: 0;
+}
+
+.content {
+  min-height: 100%; /* S'assurer que la section principale occupe toute la hauteur */
+  display: flex;
+  flex-direction: column;
 }
 
 body {
